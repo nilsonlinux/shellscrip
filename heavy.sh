@@ -145,7 +145,6 @@ PLAYER="mpv"
             clear
             ;;
     esac
-    done
 else
     echo " Este script requer a instalação do MPplayer ou VLC"
     echo " Instale-os ou modifique o player padrão"
