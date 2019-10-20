@@ -17,15 +17,12 @@ CYAN='\e[46m'
 NC='\e[0m'
 
 # Especificando o player a ser utilizado.
-PLAYER="/usr/bin/mplayer"
+PLAYER="mpv"
 #PLAYER="/usr/bin/cvlc"
 
 # Verificando se o $PLAYER está instalado
 if [ -e $PLAYER ]; then
     # parando a sessão $PLAYER
-    if [ "$(pidof mplayer)" ]; then
-        killall mplayer
-    fi
     while true; do
     clear
     echo ""
