@@ -18,10 +18,6 @@ NC='\e[0m'
 
 # Especificando o player a ser utilizado.
 PLAYER="mpv"
-#PLAYER="/usr/bin/cvlc"
-
-
-    
     clear
     echo ""
     echo " ·····················································"
@@ -145,7 +141,6 @@ PLAYER="mpv"
 
             echo -e "$RED Escolha errada! $NC"
             echo "tente novamente..."
-            echo ""
             sleep 2
             clear
             ;;
