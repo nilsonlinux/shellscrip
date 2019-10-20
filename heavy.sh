@@ -20,10 +20,8 @@ NC='\e[0m'
 PLAYER="mpv"
 #PLAYER="/usr/bin/cvlc"
 
-# Verificando se o $PLAYER está instalado
-if [ -e $PLAYER ]; then
-    # parando a sessão $PLAYER
-    while true; do
+
+    
     clear
     echo ""
     echo " ·····················································"
